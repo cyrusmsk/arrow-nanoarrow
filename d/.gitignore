@@ -1,0 +1,17 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/nanoarrow-d
+nanoarrow-d.so
+nanoarrow-d.dylib
+nanoarrow-d.dll
+nanoarrow-d.a
+nanoarrow-d.lib
+nanoarrow-d-test-*
+*.exe
+*.pdb
+*.o
+*.obj
+*.lst
+*.a

@@ -1,0 +1,17 @@
+{
+	"authors": [
+		"Sergei Giniatulin"
+	],
+    "dflags-ldc": ["libr/nanoarrow_d.c", "-P-I./libr"],
+    "lflags-posix": [
+        "-L./libr/lib"
+    ],
+    "lflags-osx": [
+        "-rpath",
+        "@executable_path/"
+    ],
+	"copyright": "Copyright © 2024, Sergei Giniatulin",
+	"description": "Nanoarrow binding for D",
+	"license": "Apache-2.0",
+	"name": "nanoarrow_d"
+}
